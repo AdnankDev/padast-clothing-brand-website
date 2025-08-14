@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Padast Project</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css" />
+    <link rel="stylesheet" href="styles/shared/padast-header.css" />
+    <link rel="stylesheet" href="styles/pages/padast.css" />
+    <link rel="stylesheet" href="styles/shared/padast-footer.css">
+    <link rel="stylesheet" href="styles/pages/button.css">
+  </head>
+  <body>
+    <!-- Header Section Started -->
+    <div class="padast-header">
+      <!-- Left Section: Navigation Links -->
+      <div class="padast-header-left-section">
+        <div class="nav-links">
+          <a href="padast.html">Home</a>
+          <a href="padast.html">About</a>
+          <a href="#id-for-explore">Shop</a>
+          <a href="padast.html">Contact</a>
+        </div>
+      </div>
+    
+      <!-- Middle Section: Logo -->
+      <div class="padast-header-middle-section">
+        <a href="padast.html">
+          <img
+            class="padast-logo"
+            src="images/padast logo.png"
+            alt="Padast Logo"
+          />
+        </a>
+      </div>
+    
+      <!-- Right Section: Cart, Search, and Orders -->
+      <div class="padast-header-right-section">
+
+        <a href="#" class="search-icon-link">
+          <img
+            class="search-icon"
+            src="images/icons/search-icon.png"
+            alt="Search"
+          />
+        </a> 
+
+        <a href="orders.html" class="orders-link">
+          <span> Return & <br>Orders</span>
+        </a>
+
+        <a href="checkout.html" class="cart-link">
+          <img class="cart-icon" src="images/icons/cart-icon.png" alt="Cart" />
+          <div class="cart-quantity js-cart-quantity"></div>
+        </a>
+        
+       
+      </div>
+    </div>
+    <!-- Hero Secction  Started -->
+    <section class="hero-section">
+      <div class="hero-content">
+        
+        <p class="hero-tagline">Handcrafted with Care, Bringing Warmth and Tradition to Every Stitch</p>
+        <a href="#id-for-explore" class="hero-button">Explore Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-section.webp" alt="Padast Handmade Wool Clothing" />
+      </div>
+    </section>
+    
+ 
+
+<!-- Produt Section Started -->
+
+
+    <section id="products" class="products-section">
+      <div class="container">
+        <h2 class="section-title" id="id-for-explore">Our Products</h2>
+
+
+        <div class="products-grid js-products-grid">
+
+          <div class="product-item">
+            <div class="product-image-container">
+              <img src="images/products/Handcrafted Elegance Woolen Purses with a Personal Touch.jpg" alt="Product 1" class="product-image">
+            </div>
+            <h3 class="product-name">Handcrafted Elegance Woolen Purses with a Personal Touch</h3>
+            <p class="product-price">Rs.1500</p>
+            <button class="add-to-cart-button js-add-to-cart">Add to Cart</button>
+          </div>
+      
+        
+         
+         
+          
+         
+          
+          <!-- Add more products as needed -->
+        </div>
+      </div>
+    </section>
+    
+
+
+<!-- Footer Section stared here -->
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <h2>Padast</h2>
+          <p>Handmade wool products crafted with care, especially for kids. Inspired by tradition, created for comfort.</p>
+        </div>
+    
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+    
+        <!-- Policies -->
+        <div class="footer-policies">
+          <h3>Policies</h3>
+          <ul>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#returns">Return Policy</a></li>
+          </ul>
+        </div>
+    
+        <!-- Contact Info -->
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p>Email: <a href="mailto:info@padast.com">info@padast.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+          <p>Follow us:</p>
+          <div class="social-icons">
+            <a href="#" class="icon">Facebook</a>
+            <a href="#" class="icon">Instagram</a>
+            <a href="#" class="icon">Pinterest</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2025 Padast. All rights reserved.</p>
+      </div>
+    </footer>
+    
+    
+
+    <!--   Entry Point file because of modules -->
+      
+    <script type="module" src="script/padast.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+/* Footer Section */
+.footer-section {
+    background-color: #3D2B1F; /* Deep brown for a warm and grounded feel */
+    color: #FFF; /* White text for contrast */
+    padding: 40px 20px;
+    font-family: 'Roboto', sans-serif; /* Match brand font */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    text-align: left;
+  }
+  
+  .footer-brand h2 {
+    font-size: 1.8rem;
+    color: #F5EDE6; /* Brand accent color */
+  }
+  
+  .footer-brand p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .footer-links h3,
+  .footer-policies h3,
+  .footer-contact h3 {
+    font-size: 1.2rem;
+    color: #8BF3FC; /* Bright blue for section titles */
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul,
+  .footer-policies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li,
+  .footer-policies ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a,
+  .footer-policies ul li a {
+    color: #F4F0EE; /* Off-white for links */
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  .footer-links ul li a:hover,
+  .footer-policies ul li a:hover {
+    color: #8BF3FC; /* Bright blue on hover */
+  }
+  
+  .footer-contact p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact a {
+    color: #F5EDE6; /* Accent color */
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    color: #8BF3FC; /* Bright blue on hover */
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons .icon {
+    color: #F4F0EE; /* Off-white for icons */
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .social-icons .icon:hover {
+    color: #8BF3FC; /* Bright blue on hover */
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid #D9C6B5; /* Soft beige divider */
+    padding-top: 20px;
+    color: #F4F0EE;
+  }
+  

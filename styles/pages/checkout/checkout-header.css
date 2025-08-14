@@ -1,0 +1,117 @@
+/* Checkout Header */
+.checkout-header {
+  height: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #3D2B1F; /* Deep brown, representing tradition and warmth */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout-header-left-section {
+  width: 150px;
+}
+
+.padast-logo {
+  width: 150px;
+  height: 150px;
+  
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.padast-mobile-logo {
+  display: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 575px) {
+  .checkout-header-left-section {
+    width: auto;
+  }
+
+  .padast-logo {
+    display: none;
+  }
+
+  .padast-mobile-logo {
+    display: inline-block;
+    height: 40px;
+    margin-top: 5px;
+  }
+}
+
+/* Checkout Middle Section */
+.checkout-header-middle-section {
+  flex: 1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #F5EDE6; /* Soft beige for contrast against the deep brown background */
+}
+
+.return-to-home-link {
+  color: #F5EDE6; /* Beige for consistency */
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.return-to-home-link:hover {
+  color: #8BF3FC; /* Light blue accent on hover */
+}
+
+@media (max-width: 1000px) {
+  .checkout-header-middle-section {
+    font-size: 24px;
+    margin-right: 60px;
+  }
+
+  .return-to-home-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .checkout-header-middle-section {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .return-to-home-link {
+    font-size: 16px;
+  }
+}
+
+/* Checkout Right Section */
+.checkout-header-right-section {
+  width: 50px;
+  text-align: right;
+}
+
+.checkout-header-right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 1000px) {
+  .checkout-header-right-section {
+    width: 40px;
+  }
+}
