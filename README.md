@@ -73,7 +73,7 @@ Padast-Clothing-Store/
 ## 📸 Screenshots
 
 **Homepage**
-![Homepage](screenshots/hero-section.png)
+![Homepage](screenshots/hero-secton.png)
 
 **Checkout Page**
 ![Checkout](screenshots/checkout.png)
