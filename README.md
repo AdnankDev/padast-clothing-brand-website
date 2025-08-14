@@ -1,4 +1,3 @@
----
 
 # 🧶 Padast – Wool Clothing Store Website
 
