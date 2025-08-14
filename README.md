@@ -6,23 +6,21 @@ The name "Padast" comes from Pashto, meaning **"through fingers or hands"**, rep
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
-PADAST/
-│
-├── backend/ # Server-side scripts, APIs, and order processing logic
-├── data/ # Static data, product JSON files
-├── images/ # Product and website images
-├── screenshots/ # UI preview images for documentation
-├── script/ # JavaScript files for frontend interactivity
-├── styles/ # CSS files for styling
-├── test-jasmine/ # Jasmine test cases for JavaScript functionality
-│
-├── checkout.html # Checkout page
-├── orders.html # Orders management page
-├── padast.html # Homepage
-├── tracking.html # Order tracking page
-└── README.md # Project documentation
+- **backend/** — Backend scripts and server logic  
+- **data/** — Data files for products and orders  
+- **images/** — Product and asset images  
+- **screenshots/** — Project screenshots  
+- **script/** — JavaScript files for frontend  
+- **styles/** — CSS stylesheets  
+- **test-jasmine/** — Jasmine testing setup  
+- **checkout.html** — Checkout page  
+- **orders.html** — Orders listing page  
+- **padast.html** — Main landing page  
+- **tracking.html** — Order tracking page  
+- **README.md** — Project documentation  
+
 
 yaml
 Copy
