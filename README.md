@@ -78,10 +78,10 @@ Padast-Clothing-Store/
 **Checkout Page**
 ![Checkout](screenshots/checkout.png)
 
-**Order Tracking**
+**Products Section**
 ![Tracking](screenshots/products.png)
 
-**Order Tracking**
+**Footer**
 ![Tracking](screenshots/footer.png)
 
 ---
